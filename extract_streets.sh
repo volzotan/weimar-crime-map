@@ -1,0 +1,1 @@
+./osmfilter xapi_export.osm --keep="addr:country= and addr:city= and addr:street=" --ignore-depemdencies --drop-relations --drop-ways | ./osmconvert - --csv="@oname @id @lon @lat addr:country addr:city addr:street"
