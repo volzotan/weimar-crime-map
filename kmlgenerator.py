@@ -9,6 +9,7 @@ output = json.load(open("merged_output.json", "r"))
 
 fld = KML.Folder()
 
+counter = 0
 
 for report in output:
     if report["confidence"] <= 0.1:
@@ -16,22 +17,29 @@ for report in output:
 
     #print(len(report["locations"]))
     if len(report["locations"]) > 0:
-        loc = report["locations"][0][0]
+        locs2 = report["locations"]
 
-        if loc == 0:
-            #print(loc)
-            continue
+        for locs1 in locs2:
+            loc = locs1[0]
+            
+            if loc == 0:
+                print(locs2)
+                continue
 
-        pm = KML.Placemark(KML.name(""),
-                            KML.Point(
-                                KML.coordinates(str(loc[0]) + "," + str(loc[1]))
-                            ))
+            try:
+                pm = KML.Placemark(KML.name(""),
+                                    KML.Point(
+                                        KML.coordinates(str(loc[0]) + "," + str(loc[1]))
+                                    ))
+            except Exception as e:
+                print(loc)
+                raise e
 
-        #print(etree.tostring(pm, pretty_print=True))
-
-        fld.append(pm)
-        # print("narf")
+            fld.append(pm)
+            counter += 1
 
 fd = open("output.kml", "wb")
 fd.write(etree.tostring(fld))
 fd.close()
+
+print(counter)

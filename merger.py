@@ -9,9 +9,9 @@ example = {     "heading": None,
                 "confidence": 0.5
             }
 
-SPECIAL_LOCATIONS = [   ("atrium"       , 0, 0),
-                        ("herderplatz"  , 0, 0),
-                        ("theaterplatz" , 0, 0)
+SPECIAL_LOCATIONS = [   ("atrium"       , 11.328813, 50.984910),
+                        ("herderplatz"  , 11.329757, 50.981215),
+                        ("theaterplatz" , 11.325680, 50.979871)
                     ]            
 
 picklelist  = pickle.load(open("weighted.pickle", "rb"))
@@ -40,7 +40,7 @@ for report in picklelist:
     for speciallocation in SPECIAL_LOCATIONS:
         if speciallocation[0] in report["text"].lower():
             report["streets"].append(speciallocation[0])
-            report["locations"].append([speciallocation[1], speciallocation[2]])
+            report["locations"].append([[speciallocation[1], speciallocation[2]]])
             changed_speciallocations += 1
 
 print(changed_streets)
