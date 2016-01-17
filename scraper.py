@@ -19,6 +19,9 @@ def replaceUmlauts(data):
     data = data.replace("&ouml;", "ö")
     data = data.replace("&uuml;", "ü")
     data = data.replace("&szlig;", "ß")
+    data = data.replace("&Auml;", "Ä")
+    data = data.replace("&Ouml;", "Ö")
+    data = data.replace("&Uuml;", "U")
 
     data = data.replace("\r", "")
     data = data.replace("\n", "")
