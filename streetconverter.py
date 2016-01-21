@@ -22,7 +22,7 @@ def generate_aliases(name, depth=1):
         aliases.append(name.replace("straße", "str"))
         aliases.append(name.replace("strasse", "str"))
         aliases.append(name.replace("straße", "-straße"))
-        aliases.append(name.replace("-strasse", "-strasse"))
+        aliases.append(name.replace("strasse", "-strasse"))
 
     merger = []
     if depth > 0:
