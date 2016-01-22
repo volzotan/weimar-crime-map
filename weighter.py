@@ -2,9 +2,11 @@ import pickle
 import sys
 
 KILLLIST = [    "apolda",
+                "jena ", # jenaer straße nicht
                 "bad berka",
                 "possendorf",
                 "blankenhain",
+                "kranichfeld",
                 "auerstedt",
                 "ettersburg",
                 "heusdorf",
@@ -14,7 +16,7 @@ KILLLIST = [    "apolda",
                 "pfiffelbach",
                 "obernissa",
                 "landstrasse",
-                "landstraße"
+                "landstraße",
             ]
 
 WEIMARLIST = [  "in weimar.",

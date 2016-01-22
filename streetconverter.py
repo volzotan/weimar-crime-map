@@ -42,6 +42,10 @@ with open("streets.csv", "r") as csvfile:
         lat = row[2] 
         lon = row[3]
 
+        # streetname 'markt' results in problems
+        if name is "markt" or name is "Markt":
+            continue
+
         if name not in container:
             container[name] = {}
             container[name]["coordinates"] = [(lat, lon)]
