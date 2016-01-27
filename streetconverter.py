@@ -43,7 +43,7 @@ with open("streets.csv", "r") as csvfile:
         lon = row[3]
 
         # streetname 'markt' results in problems
-        if name is "markt" or name is "Markt":
+        if "markt" in name.lower():
             continue
 
         if name not in container:

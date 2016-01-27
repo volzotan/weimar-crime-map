@@ -3,6 +3,8 @@ from pykml.factory import ATOM_ElementMaker as ATOM
 from pykml.factory import GX_ElementMaker as GX
 from lxml import etree
 
+import pprint as pp
+
 import json
 
 output = json.load(open("merged_output.json", "r"))
@@ -11,7 +13,7 @@ fld = KML.Folder()
 
 counter = 0
 
-for report in output:
+for report in output: #[:10]:
     if report["confidence"] <= 0.1:
         continue
 
@@ -29,7 +31,10 @@ for report in output:
             try:
                 pm = KML.Placemark(KML.name(""),
                                     KML.Point(
-                                        KML.coordinates(str(loc[0]) + "," + str(loc[1]))
+                                        KML.coordinates(str(loc[0]) + "," + str(loc[1])),
+                                        KML.ExtendedData( 
+                                            KML.Data(KML.value("bar"), name="foo")
+                                        ) 
                                     ))
             except Exception as e:
                 print(loc)
@@ -41,5 +46,7 @@ for report in output:
 fd = open("output.kml", "wb")
 fd.write(etree.tostring(fld))
 fd.close()
+
+#print(etree.tostring(fld, pretty_print=True))
 
 print(counter)
