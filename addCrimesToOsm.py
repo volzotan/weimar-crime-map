@@ -47,6 +47,14 @@ for street in streets:
         tag_diebstahl.set('v', count_diebstahl)
 
 
+        tag_all_crimes = ET.SubElement(street, 'tag')
+
+        sum_crimes = sum(street_counts.values())
+        count_all_cimes = str(sum_crimes)
+        tag_all_crimes.set('k', 'countAllCrimes')
+        tag_all_crimes.set('v', count_all_cimes)
+
+
     # ET.dump(tag_koerperverletzung)
     # ET.dump(street)
 
