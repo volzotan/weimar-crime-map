@@ -1,7 +1,8 @@
 weimar crime map
 ================
 
-![weimar crime map](https://raw.githubusercontent.com/volzotan/weimar-crime-map/export/export_small.png)
+![weimar crime map](https://raw.githubusercontent.com/volzotan/weimar-crime-map/master/export/export_small.png)
+
 
 python3 scraper.py                      #                                       --> raw.pickle
 python3 weighter.py                     # raw.pickle                            --> weighted.pickle
