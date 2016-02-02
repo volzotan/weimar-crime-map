@@ -82,6 +82,10 @@ for report in reports:
                 else:
                     identified_categories[category] = 1
 
+                # evil hack
+                if keyword == "körperverletzung":
+                    identified_categories[category] = 100
+
     report["category"] = identified_categories
 
 for report in reports:
