@@ -169,10 +169,37 @@
         </layer>
       </symbol>
       <SnapLine y1="0" x1="0" y2="0" x2="0"/>
+      <ComposerLabel valign="128" marginX="8" marginY="1" labelText="Juli 2013 - Januar 2016" htmlState="0" halign="1">
+        <LabelFont description="MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0" style=""/>
+        <FontColor red="255" blue="255" green="255"/>
+        <ComposerItem pagey="12.6348" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="2.23881" y="12.6348" visibility="1" zValue="11" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="203.14" outlineWidth="0.3" excludeFromExports="0" uuid="{0496e861-3418-40b6-a5b2-04dd10ba2c60}" height="8.66957" itemRotation="0" frame="false" pagex="2.23881">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="187" red="51" blue="51" green="51"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLabel>
+      <ComposerLabel valign="128" marginX="8" marginY="1" labelText="Verbrechen in Weimar" htmlState="0" halign="1">
+        <LabelFont description="MS Shell Dlg 2,20,-1,5,50,0,0,0,0,0" style=""/>
+        <FontColor red="255" blue="255" green="255"/>
+        <ComposerItem pagey="1.42931" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1.4775" y="1.42931" visibility="1" zValue="10" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="203.14" outlineWidth="0.3" excludeFromExports="0" uuid="{0c06f933-568d-430b-97fe-30dee254523d}" height="16.9352" itemRotation="0" frame="false" pagex="1.4775">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="187" red="51" blue="51" green="51"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLabel>
+      <ComposerLabel valign="128" marginX="8" marginY="1" labelText="" htmlState="0" halign="1">
+        <LabelFont description="MS Shell Dlg 2,20,-1,5,50,0,0,0,0,0" style=""/>
+        <FontColor red="255" blue="255" green="255"/>
+        <ComposerItem pagey="1.48266" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1.48348" y="1.48266" visibility="1" zValue="9" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="203.14" outlineWidth="0.3" excludeFromExports="0" uuid="{0b61c022-52c1-4273-b850-c10e2368e033}" height="21.2166" itemRotation="0" frame="false" pagex="1.48348">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="187" red="51" blue="51" green="51"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLabel>
       <ComposerLabel valign="128" marginX="1" marginY="1" labelText="Unfälle" htmlState="0" halign="4">
         <LabelFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="255" blue="255" green="255"/>
-        <ComposerItem pagey="141" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="207.02" y="141" visibility="1" zValue="20" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="89.0676" outlineWidth="0.3" excludeFromExports="0" uuid="{1fee775b-a6a1-47dc-b6c9-91e9ab54abae}" height="9.03755" itemRotation="0" frame="false" pagex="207.02">
+        <ComposerItem pagey="141" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="207.02" y="141" visibility="1" zValue="8" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="89.0676" outlineWidth="0.3" excludeFromExports="0" uuid="{1fee775b-a6a1-47dc-b6c9-91e9ab54abae}" height="9.03755" itemRotation="0" frame="false" pagex="207.02">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="187" red="51" blue="51" green="51"/>
           <customproperties/>
@@ -181,7 +208,7 @@
       <ComposerLabel valign="128" marginX="1" marginY="1" labelText="Diebstähle" htmlState="0" halign="4">
         <LabelFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="255" blue="255" green="255"/>
-        <ComposerItem pagey="71" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="207.02" y="71" visibility="1" zValue="13" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="89.0676" outlineWidth="0.3" excludeFromExports="0" uuid="{ec75454b-9012-4553-9a60-00b83ed2cc8a}" height="9.03755" itemRotation="0" frame="false" pagex="207.02">
+        <ComposerItem pagey="71" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="207.02" y="71" visibility="1" zValue="7" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="89.0676" outlineWidth="0.3" excludeFromExports="0" uuid="{ec75454b-9012-4553-9a60-00b83ed2cc8a}" height="9.03755" itemRotation="0" frame="false" pagex="207.02">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="187" red="51" blue="51" green="51"/>
           <customproperties/>
@@ -3173,7 +3200,7 @@
         </ComposerItem>
       </ComposerMap>
       <ComposerMap mapRotation="0" keepLayerSet="true" id="0" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="6616093.90210327133536339" xmin="1258857.53502271743491292" ymax="6620279.02701279334723949" xmax="1262965.07502690702676773"/>
+        <Extent ymin="6616293.901999999769032" xmin="1258857.53499999991618097" ymax="6620479.026999999769032" xmax="1262965.07499999995343387"/>
         <LayerSet>
           <Layer>pointsofinterest20160202164533638</Layer>
           <Layer>lines_any201602011710454233281</Layer>
@@ -4148,7 +4175,7 @@
           <annotationFontProperties description="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="3.32231" positionMode="0" positionLock="true" x="0" y="0" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="206.107" outlineWidth="0.3" excludeFromExports="0" uuid="{237909ff-42eb-409d-b666-6e222c8c7636}" height="210" itemRotation="0" frame="false" pagex="0">
+        <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="2.29868" positionMode="0" positionLock="true" x="0" y="0" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="206.107" outlineWidth="3" excludeFromExports="0" uuid="{237909ff-42eb-409d-b666-6e222c8c7636}" height="210" itemRotation="0" frame="true" pagex="0">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="94" blue="94" green="94"/>
           <customproperties/>
