@@ -1,6 +1,8 @@
 weimar crime map
 ================
 
+![weimar crime map](/export/export_small.png?raw=true "Crime Map")
+
 python3 scraper.py                      #                                       --> raw.pickle
 python3 weighter.py                     # raw.pickle                            --> weighted.pickle
 sh ./extract_streets.sh                 # xapi_export.osm                       --> streets.csv
