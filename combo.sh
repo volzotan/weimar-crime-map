@@ -1,10 +1,11 @@
 #/bin/sh
-                                # input                         --> output
+                                        # input                                 --> output
 
-python3 scraper.py              #                               --> raw.pickle
-python3 weighter.py             # raw.pickle                    --> weighted.pickle
-sh ./extract_streets.sh         # xapi_export.osm               --> streets.csv
-python3 streetconverter.py      # streets.csv                   --> streets.json
-python3 merger.py               # weighted.pickle, streets.json --> merged_output.json
-python3 categorizer.py          # merged_output.json            --> merged_output.json
-python3 kmlgenerator.py         # merged_output.json            --> output.kml
+python3 scraper.py                      #                                       --> raw.pickle
+python3 weighter.py                     # raw.pickle                            --> weighted.pickle
+sh ./extract_streets.sh                 # xapi_export.osm                       --> streets.csv
+python3 streetconverter.py              # streets.csv                           --> streets.json
+python3 merger.py                       # weighted.pickle, streets.json         --> merged_output.json
+python3 categorizer.py                  # merged_output.json                    --> merged_output.json
+python3 csvgenerator.py > output.csv    # merged_output.json                    --> output.csv
+python3 addCrimesToOsm.py               # output.csv, qigs_project/maplayer.osm --> qgis_project/maplayer_weighted_streets.osm
