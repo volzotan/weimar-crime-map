@@ -1,8 +1,6 @@
 import csv
 import json
 
-BLACKLIST = ["markt", "graben"]
-
 def generate_aliases(name, depth=1):
     name = name.lower()
     aliases = [name]
@@ -45,9 +43,11 @@ with open("streets.csv", "r") as csvfile:
         lon = row[3]
 
         # some streetnames result in problems
-        for evil_streetname in BLACKLIST:
-            if evil_streetname in name.lower():
-                continue
+        if "markt" in name.lower():
+            continue
+
+        if "graben" in name.lower():
+            continue
 
         if name not in container:
             container[name] = {}
