@@ -62,7 +62,7 @@ for street in streets:
         street_counts["foundInOSM"] = 1
         tag_all_crimes = ET.SubElement(street, 'tag')
 
-        sum_crimes = sum(street_counts.values())
+        sum_crimes = sum(street_counts.values())-1
         count_all_cimes = str(sum_crimes)
         tag_all_crimes.set('k', 'countAllCrimes')
         tag_all_crimes.set('v', count_all_cimes)
