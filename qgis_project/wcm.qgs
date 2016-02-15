@@ -21,7 +21,7 @@
     <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="lines_any2016020123252252610264" name="weighted-streets-unfaelle">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" checked="Qt::Checked" id="lines_any201602011710454233281" name="alle Verbrechen">
+    <layer-tree-layer expanded="0" checked="Qt::Checked" id="lines_any201602011710454233281" name="alle Vorkommnisse">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="weighted_streets_copy20160201004734020" name="weighted-streets copy">
@@ -41,10 +41,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>1258090.29541273624636233</xmin>
-      <ymin>6616477.42516602016985416</ymin>
-      <xmax>1263732.31463688821531832</xmax>
-      <ymax>6619898.4590447936207056</ymax>
+      <xmin>1258533.84899999992921948</xmin>
+      <ymin>6616500.29200000036507845</ymin>
+      <xmax>1265288.76099999994039536</xmax>
+      <ymax>6620545.39199999999254942</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -125,7 +125,7 @@
         <legendlayerfile isInOverview="0" layerid="lines_any2016020123252252610264" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="alle Verbrechen" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="alle Vorkommnisse" showFeatureCount="0">
       <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="lines_any201602011710454233281" visible="1"/>
       </filegroup>
@@ -151,7 +151,7 @@
       </filegroup>
     </legendlayer>
   </legend>
-  <Composer title="crime-map" visible="1">
+  <Composer title="crime-map" visible="0">
     <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" alignmentSnap="1" printResolution="300" paperWidth="297" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="210" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">
@@ -168,7 +168,7 @@
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <SnapLine y1="0" x1="0" y2="0" x2="0"/>
+      <SnapLine y1="0" x1="0" y2="210" x2="0"/>
       <ComposerLabel valign="128" marginX="8" marginY="1" labelText="Juli 2013 - Januar 2016" htmlState="0" halign="1">
         <LabelFont description="MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="255" blue="255" green="255"/>
@@ -178,7 +178,7 @@
           <customproperties/>
         </ComposerItem>
       </ComposerLabel>
-      <ComposerLabel valign="128" marginX="8" marginY="1" labelText="Verbrechen in Weimar" htmlState="0" halign="1">
+      <ComposerLabel valign="128" marginX="8" marginY="1" labelText="Verbrechen und Unfälle in Weimar" htmlState="0" halign="1">
         <LabelFont description="MS Shell Dlg 2,20,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="255" blue="255" green="255"/>
         <ComposerItem pagey="1.42931" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1.4775" y="1.42931" visibility="1" zValue="10" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="203.14" outlineWidth="0.3" excludeFromExports="0" uuid="{0c06f933-568d-430b-97fe-30dee254523d}" height="16.9352" itemRotation="0" frame="false" pagex="1.4775">
@@ -243,18 +243,18 @@
         </styles>
         <layer-tree-group expanded="1" checked="Qt::Checked" name="">
           <customproperties/>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="lines_any201602011710454233281" name="alle Verbrechen">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="lines_any201602011710454233281" name="alle Vorkommnisse">
             <customproperties/>
           </layer-tree-layer>
         </layer-tree-group>
-        <ComposerItem pagey="152.359" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="2.23881" y="152.359" visibility="1" zValue="5" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="32.4" outlineWidth="0.3" excludeFromExports="0" uuid="{2b161256-df19-4f8c-946f-e03c70b8d440}" height="55.9" itemRotation="0" frame="false" pagex="2.23881">
+        <ComposerItem pagey="152.359" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="2.23881" y="152.359" visibility="1" zValue="5" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="38.5" outlineWidth="0.3" excludeFromExports="0" uuid="{2b161256-df19-4f8c-946f-e03c70b8d440}" height="55.9" itemRotation="0" frame="false" pagex="2.23881">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="187" red="51" blue="51" green="51"/>
           <customproperties/>
         </ComposerItem>
       </ComposerLegend>
       <ComposerMap mapRotation="0" keepLayerSet="true" id="3" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="6616477.42516602016985416" xmin="1257829.64394815196283162" ymax="6621224.02337195910513401" xmax="1263992.96610147249884903"/>
+        <Extent ymin="6616500.29200000036507845" xmin="1258533.84899999992921948" ymax="6620545.39199999999254942" xmax="1265288.76099999994039536"/>
         <LayerSet>
           <Layer>pointsofinterest20160202164533638</Layer>
           <Layer>lines_any20160201003138093</Layer>
@@ -1229,14 +1229,14 @@
           <annotationFontProperties description="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="4.02" positionMode="2" positionLock="true" x="206.107" y="0" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="90.893" outlineWidth="2" excludeFromExports="0" uuid="{acb4df3a-d37a-4cc1-8e06-a0621cd2f71e}" height="70" itemRotation="0" frame="true" pagex="206.107">
+        <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="3.65454" positionMode="2" positionLock="true" x="180.107" y="0" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="116.893" outlineWidth="2" excludeFromExports="0" uuid="{acb4df3a-d37a-4cc1-8e06-a0621cd2f71e}" height="70" itemRotation="0" frame="true" pagex="180.107">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="94" blue="94" green="94"/>
           <customproperties/>
         </ComposerItem>
       </ComposerMap>
       <ComposerMap mapRotation="0" keepLayerSet="true" id="2" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="6616477.42516602016985416" xmin="1257829.64394815196283162" ymax="6621224.02337195910513401" xmax="1263992.96610147249884903"/>
+        <Extent ymin="6616500.29200000036507845" xmin="1258533.84899999992921948" ymax="6620545.39199999999254942" xmax="1265288.76099999994039536"/>
         <LayerSet>
           <Layer>pointsofinterest20160202164533638</Layer>
           <Layer>lines_any2016020116463670522237</Layer>
@@ -2211,14 +2211,14 @@
           <annotationFontProperties description="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="70" page="1" id="" lastValidViewScaleFactor="4.02" positionMode="2" positionLock="true" x="206.107" y="70" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="90.893" outlineWidth="2" excludeFromExports="0" uuid="{b53922fd-c2ef-4c23-b366-ce197732a612}" height="70" itemRotation="0" frame="true" pagex="206.107">
+        <ComposerItem pagey="70" page="1" id="" lastValidViewScaleFactor="3.65454" positionMode="2" positionLock="true" x="180.107" y="70" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="116.893" outlineWidth="2" excludeFromExports="0" uuid="{b53922fd-c2ef-4c23-b366-ce197732a612}" height="70" itemRotation="0" frame="true" pagex="180.107">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="94" blue="94" green="94"/>
           <customproperties/>
         </ComposerItem>
       </ComposerMap>
       <ComposerMap mapRotation="0" keepLayerSet="true" id="1" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="6616477.42516602016985416" xmin="1257829.64394815196283162" ymax="6621224.02337195910513401" xmax="1263992.96610147249884903"/>
+        <Extent ymin="6616500.29200000036507845" xmin="1258533.84899999992921948" ymax="6620545.39199999999254942" xmax="1265288.76099999994039536"/>
         <LayerSet>
           <Layer>pointsofinterest20160202164533638</Layer>
           <Layer>lines_any2016020123252252610264</Layer>
@@ -3193,14 +3193,14 @@
           <annotationFontProperties description="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="140" page="1" id="" lastValidViewScaleFactor="4.02" positionMode="2" positionLock="true" x="206.107" y="140" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="90.893" outlineWidth="2" excludeFromExports="0" uuid="{38855d89-470a-4144-969c-2a0add4bc740}" height="70" itemRotation="0" frame="true" pagex="206.107">
+        <ComposerItem pagey="140" page="1" id="" lastValidViewScaleFactor="3.65454" positionMode="2" positionLock="true" x="180.107" y="140" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="116.893" outlineWidth="2" excludeFromExports="0" uuid="{38855d89-470a-4144-969c-2a0add4bc740}" height="70" itemRotation="0" frame="true" pagex="180.107">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="94" blue="94" green="94"/>
           <customproperties/>
         </ComposerItem>
       </ComposerMap>
       <ComposerMap mapRotation="0" keepLayerSet="true" id="0" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="6616293.901999999769032" xmin="1258857.53499999991618097" ymax="6620479.026999999769032" xmax="1262965.07499999995343387"/>
+        <Extent ymin="6616093.901999999769032" xmin="1258457.53499999991618097" ymax="6620883.18503730557858944" xmax="1262565.07499999995343387"/>
         <LayerSet>
           <Layer>pointsofinterest20160202164533638</Layer>
           <Layer>lines_any201602011710454233281</Layer>
@@ -4175,7 +4175,7 @@
           <annotationFontProperties description="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="2.29868" positionMode="0" positionLock="true" x="0" y="0" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="206.107" outlineWidth="3" excludeFromExports="0" uuid="{237909ff-42eb-409d-b666-6e222c8c7636}" height="210" itemRotation="0" frame="true" pagex="0">
+        <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="3.65454" positionMode="0" positionLock="true" x="0" y="0" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="180.107" outlineWidth="3" excludeFromExports="0" uuid="{237909ff-42eb-409d-b666-6e222c8c7636}" height="210" itemRotation="0" frame="true" pagex="0">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="94" blue="94" green="94"/>
           <customproperties/>
@@ -5718,7 +5718,7 @@
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>alle Verbrechen</layername>
+      <layername>alle Vorkommnisse</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
